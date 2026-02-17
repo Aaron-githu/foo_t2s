@@ -16,30 +16,11 @@ foo_t2s 是一个 foobar2000 音频播放器的插件，用于实时将繁体中
 
 ## 🔧 安装方法
 1. 从 [Releases](https://github.com/Aaron-githu/foo_t2s/releases) 页面下载最新的 `foo_t2s.fb2k-component` 文件
-2. 双击下载的文件，foobar2000 会自动安装
-3. 或者在 foobar2000 中点击 `File` -> `Preferences` -> `Components` -> `Install`，选择下载的文件
-4. 重启 foobar2000 完成安装
+2. 或者在 foobar2000 中点击 `File` -> `Preferences` -> `Components` -> `Install`，选择下载的文件
+3. 重启 foobar2000 完成安装
 
 ## ⚙️ 使用方法
-安装后，插件会自动工作。你可以通过以下方式配置：
-
-1. 打开 foobar2000 的 `Preferences`（快捷键 `Ctrl+P`）
-2. 找到 `Tools` -> `T2S Converter`
-3. 在这里可以：
-   - ✅ 启用/禁用自动转换
-   - ✅ 选择要转换的标签字段
-   - ✅ 执行批量标签转换
-
-## 🛠️ 编译指南
-如果你想从源代码编译：
-
-### 依赖项
-- Visual Studio 2019 或更高版本
-- foobar2000 SDK
-- Windows SDK 10.0+
-
-### 编译步骤
-```bash
-git clone https://github.com/Aaron-githu/foo_t2s.git
-cd foo_t2s
-# 打开解决方案文件进行编译
+1. 打开 foobar2000 的 歌曲列表
+2. 选中需转换的歌曲（可多选）
+3. 单击右键 -> `T2S Converter`
+4. 相关信息会自动转换为简体中文
