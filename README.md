@@ -14,7 +14,7 @@ foo_t2s 是一个 foobar2000 音频播放器的插件，用于将繁体中文标
 
 ## 🔧 安装方法
 1. 从 [Releases](https://github.com/Aaron-githu/foo_t2s/releases) 页面下载最新的 `foo_t2s.fb2k-component` 文件
-2. 或者在 foobar2000 中点击 `File` -> `Preferences` -> `Components` -> `Install`，选择下载的文件
+2. 在 foobar2000 中点击 `File` -> `Preferences` -> `Components` -> `Install`，选择下载的文件
 3. 重启 foobar2000 完成安装
 
 ## ⚙️ 使用方法
